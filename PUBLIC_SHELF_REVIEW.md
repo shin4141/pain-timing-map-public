@@ -260,6 +260,33 @@ Marker classification:
 
 Final Public Status Block status: PASS.
 
+## Top README Status Badges v1
+
+Review timestamp: 2026-07-07 16:44:29 JST
+
+Files reviewed:
+
+- `README.md`
+- `PUBLICATION_RECORD.md`
+- `PUBLIC_SHELF_REVIEW.md`
+
+Exact changes made:
+
+- `README.md`: added the required status badge block immediately under `# Pain Timing Map`.
+- `PUBLICATION_RECORD.md`: added `Top README Status Badges v1`.
+- `PUBLIC_SHELF_REVIEW.md`: added this review section.
+
+Marker classification:
+
+- `Status-PRIVATE / Public Reopen BLOCK`: SAFE; required visible badge boundary.
+- `Implementation-HOLD`: SAFE; required visible badge boundary.
+- `API / Scraping / Automation-BLOCK`: SAFE; required visible badge boundary.
+- `Public Posting-HOLD`: SAFE; required visible badge boundary.
+- `Prediction Guarantee-NO`: SAFE; required visible badge boundary.
+- `PUBLICATION_RECORD.md` badge and gate references: SAFE as publication-control metadata.
+
+Final Top README Status Badges status: PASS.
+
 This is not publication.
 This is not a recommendation to build.
 This is an evidence-backed pain signal map.

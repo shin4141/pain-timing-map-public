@@ -96,6 +96,15 @@ Date/time: 2026-07-07 16:37:47 JST
 - Existing private repo remained PRIVATE.
 - No release, tag, social post, pricing action, sell-test, B transition, implementation, API, scraping, automation, or license selection occurred.
 
+## Top README Status Badges v1
+
+Date/time: 2026-07-07 16:44:29 JST
+
+- Top README status badges added.
+- Badges were added immediately under `# Pain Timing Map`.
+- Existing private repo remained PRIVATE.
+- No release, tag, social post, pricing action, sell-test, B transition, implementation, API, scraping, automation, or license selection occurred.
+
 This is not a recommendation to build.
 This is an evidence-backed pain signal map.
 The build decision remains with the user.

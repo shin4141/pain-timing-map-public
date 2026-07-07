@@ -1,5 +1,12 @@
 # Pain Timing Map
 
+![Manual MVP](https://img.shields.io/badge/Manual%20MVP-PASS-brightgreen)
+![Status](https://img.shields.io/badge/Status-PRIVATE%20%2F%20Public%20Reopen%20BLOCK-red)
+![Implementation](https://img.shields.io/badge/Implementation-HOLD-yellow)
+![API / Scraping / Automation](https://img.shields.io/badge/API%20%2F%20Scraping%20%2F%20Automation-BLOCK-red)
+![Public Posting](https://img.shields.io/badge/Public%20Posting-HOLD-yellow)
+![Prediction Guarantee](https://img.shields.io/badge/Prediction%20Guarantee-NO-lightgrey)
+
 Pain Timing Map is a manual framework for recording pain signals, rechecking them over time, and deciding whether a signal is still worth action, delay, or rejection. It treats weak signals as decision material: useful only when paired with evidence, timing, fit, risk, and clear boundaries.
 
 ## Current Status
