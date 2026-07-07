@@ -29,11 +29,18 @@ The build decision remains with the user or operator.
 4. Compare repeated signals over time.
 5. Decide whether the signal should remain WATCH, HOLD, CAP, PREPARE, BUILD CANDIDATE, or be rejected.
 
+## Color Tags
+
+Color tags are optional review-state markers for timing and evidence. They are not medical labels, recommendations, or action instructions.
+
+See `docs/color_tags.md` for the public color tag guide.
+
 ## Included Files
 
 - `docs/mvp_scope.md`: manual MVP scope and non-goals.
 - `docs/manual_usage_flow.md`: step-by-step manual usage flow.
 - `docs/visual_overview.md`: simple diagrams for signal flow.
+- `docs/color_tags.md`: public guide for color tag meanings.
 - `inputs/signal_recheck_card_template.md`: blank card for manual review.
 - `inputs/user_profile.md`: optional profile template for fit and constraints.
 - `inputs/evidence_sources.md`: evidence source notes.
@@ -78,6 +85,8 @@ Public posting, release/tag work, pricing work, build decisions, API work, scrap
 ## License And Contributions
 
 No license file is included in this shelf yet. Before reuse or publication, add an explicit license or keep usage limited to review.
+
+See `LICENSE_DECISION_REQUIRED.md` for the current license hold.
 
 For contribution boundaries, see `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, and `SUPPORT.md`.
 

@@ -55,6 +55,13 @@ Reason: this file requires public-safe rewrite or privacy wording check before i
 
 - `README.md`
 
+## Public Surface Polish v1 Files
+
+- `.github/ISSUE_TEMPLATE/config.yml`
+- `.github/ISSUE_TEMPLATE/signal_review.md`
+- `LICENSE_DECISION_REQUIRED.md`
+- `docs/color_tags.md`
+
 ## Needs Review
 
 Private-marker grep was run against the copied allowlisted files before this manifest and `PRIVATE_EXCLUSION_RULES.md` were added. Do not automatically delete files based only on these hits; review wording and gate fit first.
@@ -162,3 +169,22 @@ Confirmations:
 - No history rewrite occurred.
 - No B transition was started.
 - No implementation, API, scraping, or automation work was started.
+
+## Public Surface Polish v1
+
+- Date/time: 2026-07-07 16:31:51 JST
+- Added `docs/color_tags.md`.
+- Added `.github/ISSUE_TEMPLATE/signal_review.md`.
+- Added `.github/ISSUE_TEMPLATE/config.yml`.
+- Added `LICENSE_DECISION_REQUIRED.md`.
+- Updated `README.md` with a Color Tags section.
+- Updated `PUBLICATION_RECORD.md`.
+- Updated `PUBLIC_SHELF_REVIEW.md`.
+- `docs/community_signal_board.md` remains excluded.
+- License selection remains HOLD and requires maintainer approval.
+- No release or tag was created.
+- No social post occurred.
+- No pricing action or sell-test occurred.
+- No B transition was started.
+- No implementation, API, scraping, or automation work was started.
+- Existing private repo remained PRIVATE.

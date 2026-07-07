@@ -24,6 +24,11 @@ This review cleaned the local public shelf only. It did not publish, release, ta
 - `PUBLIC_SHELF_MANIFEST.md`
 - `PRIVATE_EXCLUSION_RULES.md`
 - `README.md`
+- `docs/color_tags.md`
+- `.github/ISSUE_TEMPLATE/signal_review.md`
+- `.github/ISSUE_TEMPLATE/config.yml`
+- `LICENSE_DECISION_REQUIRED.md`
+- `PUBLICATION_RECORD.md`
 
 ## Marker Hits By File
 
@@ -102,6 +107,30 @@ This review cleaned the local public shelf only. It did not publish, release, ta
 - `build/sell instruction`: SAFE; required negative-boundary wording, not a sell-test or pricing instruction.
 - `Current Status`: SAFE; required public-shelf state wording, not a source workspace status file.
 
+### `docs/color_tags.md`
+
+- No private-marker hits.
+- Classification: SAFE.
+
+### `.github/ISSUE_TEMPLATE/signal_review.md`
+
+- No private-marker hits.
+- Classification: SAFE.
+
+### `.github/ISSUE_TEMPLATE/config.yml`
+
+- No private-marker hits.
+- Classification: SAFE.
+
+### `LICENSE_DECISION_REQUIRED.md`
+
+- No private-marker hits.
+- Classification: SAFE. License selection is explicitly held.
+
+### `PUBLICATION_RECORD.md`
+
+- Public/private gate and exclusion terms: SAFE as publication-control metadata.
+
 ## Exact Changes Made
 
 - `docs/visual_overview.md`: changed `Idea Asset Candidate` to `Evidence Candidate`; changed `Idea Asset Record` to `Decision Material Record`; changed `Dogfood Signal` to `Internal Validation Signal`.
@@ -118,6 +147,13 @@ This review cleaned the local public shelf only. It did not publish, release, ta
 - `examples/signal_recheck_003_last30days_skill.md`: removed `sell-test` from the non-authorization sentence.
 - `README.md`: added a newly written public-safe draft from shelf contents only. The draft states that the project is not medical advice, not a recommendation engine, not automation/scraping/API, and not a build/sell instruction.
 - `PUBLIC_SHELF_MANIFEST.md`: updated to record `README.md` as a public-safe draft and confirm `docs/community_signal_board.md` remains excluded.
+- `docs/color_tags.md`: added a public color tag guide with GREEN, YELLOW, ORANGE, RED, BLUE, and GRAY review-state markers.
+- `.github/ISSUE_TEMPLATE/signal_review.md`: added a safe signal review issue template.
+- `.github/ISSUE_TEMPLATE/config.yml`: disabled blank issues.
+- `LICENSE_DECISION_REQUIRED.md`: added explicit license hold language.
+- `README.md`: added a Color Tags section linking to `docs/color_tags.md`.
+- `PUBLICATION_RECORD.md`: added Public Surface Polish v1.
+- `PUBLIC_SHELF_MANIFEST.md`: added Public Surface Polish v1 files and confirmations.
 
 ## Remaining Marker Hits
 
@@ -128,6 +164,9 @@ After rewrites, copied content outside review/control files has only SAFE hits:
 - `CODE_OF_CONDUCT.md:10`: `private personal data`
 - `README.md`: `build/sell instruction`
 - `README.md`: `Current Status`
+- `PUBLICATION_RECORD.md`: publication-control references to private repo, sell-test, and related held gates
+- `PUBLIC_SHELF_MANIFEST.md`: shelf-control references to excluded private-only materials and held gates
+- `PRIVATE_EXCLUSION_RULES.md`: exclusion-control references to private-only materials
 
 Review/control files intentionally retain private-only path names and historical marker references for auditability.
 
@@ -157,6 +196,39 @@ Review/control files intentionally retain private-only path names and historical
 PASS for local public-shelf safety review v1.
 
 Final README status: PASS.
+
+## Public Surface Polish v1 Verification
+
+Verification timestamp: 2026-07-07 16:31:51 JST
+
+Commands run:
+
+- `find . -maxdepth 4 -type f | sort`
+- `grep -RniE "sell-test|dogfood|self_use|sweet_pain|private repo|STATUS|snapshot|registry|offer|Shin" .`
+- `git status --short`
+
+New files reviewed:
+
+- `docs/color_tags.md`: SAFE; no private-marker hits.
+- `.github/ISSUE_TEMPLATE/signal_review.md`: SAFE; no private-marker hits.
+- `.github/ISSUE_TEMPLATE/config.yml`: SAFE; no private-marker hits.
+- `LICENSE_DECISION_REQUIRED.md`: SAFE; no private-marker hits.
+
+Tracked-content marker hits:
+
+- `PUBLICATION_RECORD.md`: SAFE as publication-control metadata; includes public repo URL, private repo confirmation, excluded materials, sell-test HOLD, and private repo remained PRIVATE.
+- `PUBLIC_SHELF_MANIFEST.md`: SAFE as shelf-control metadata; includes historical review hits, excluded materials, held gates, and private repo remained PRIVATE.
+- `PUBLIC_SHELF_REVIEW.md`: SAFE as review-control metadata; includes historical hits and classification records.
+- `PRIVATE_EXCLUSION_RULES.md`: SAFE as exclusion-control metadata; lists private-only materials that must not be copied without approval.
+- `README.md`: SAFE; `Current Status` is a public status heading.
+- `prompts/evaluate_pain_signal_prompt.md`: SAFE; `Evidence Status` is an output field, not a repo status file.
+- `SECURITY.md`: SAFE; `private reporting` is public-safe security disclosure wording.
+
+Git metadata hits:
+
+- `.git/config`, `.git/logs/*`, and `.git/hooks/*.sample` contained account, remote URL, or generic Git sample hook wording. These are local Git metadata, not tracked public-surface files, and are not part of the pushed content.
+
+Final public surface polish status: PASS.
 
 This is not publication.
 This is not a recommendation to build.

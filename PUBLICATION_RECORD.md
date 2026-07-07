@@ -74,6 +74,19 @@ No release, tag, social post, pricing action, sell-test, B transition, implement
 
 - `docs/community_signal_board.md` remains excluded and still requires public-safe review before any inclusion.
 
+## Public Surface Polish v1
+
+Date/time: 2026-07-07 16:31:51 JST
+
+- Color tag guide added: `docs/color_tags.md`.
+- README updated with a short Color Tags section linking to `docs/color_tags.md`.
+- Issue template added: `.github/ISSUE_TEMPLATE/signal_review.md`.
+- Issue template config added: `.github/ISSUE_TEMPLATE/config.yml`.
+- License decision explicitly held in `LICENSE_DECISION_REQUIRED.md`.
+- No finalized open-source license was selected.
+- Existing private repo remained PRIVATE.
+- No release, tag, social post, pricing action, sell-test, B transition, implementation, API, scraping, or automation work occurred.
+
 This is not a recommendation to build.
 This is an evidence-backed pain signal map.
 The build decision remains with the user.
