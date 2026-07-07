@@ -230,6 +230,36 @@ Git metadata hits:
 
 Final public surface polish status: PASS.
 
+## Public Status Block v1
+
+Review timestamp: 2026-07-07 16:37:47 JST
+
+Files reviewed:
+
+- `README.md`
+- `PUBLICATION_RECORD.md`
+- `PUBLIC_SHELF_REVIEW.md`
+
+Exact changes made:
+
+- `README.md`: added the required Current Status block immediately after the opening description.
+- `README.md`: renamed the lower duplicate `Current Status` section to `Publication Boundary`.
+- `PUBLICATION_RECORD.md`: added `Public Status Block v1`.
+- `PUBLIC_SHELF_REVIEW.md`: added this review section.
+
+Marker classification:
+
+- `Pricing / Sell-test`: SAFE; required status-block gate line.
+- `Public Posting`: SAFE; required status-block gate line.
+- `Release / Tag`: SAFE; required status-block gate line.
+- `Source Workspace: PRIVATE`: SAFE; required status-block boundary line.
+- `Prediction Guarantee: NO`: SAFE; required negative-boundary line.
+- `Medical Advice: NO`: SAFE; required negative-boundary line.
+- `Build Recommendation: NO`: SAFE; required negative-boundary line.
+- `PUBLICATION_RECORD.md` gate references: SAFE as publication-control metadata.
+
+Final Public Status Block status: PASS.
+
 This is not publication.
 This is not a recommendation to build.
 This is an evidence-backed pain signal map.

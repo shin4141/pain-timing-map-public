@@ -87,6 +87,15 @@ Date/time: 2026-07-07 16:31:51 JST
 - Existing private repo remained PRIVATE.
 - No release, tag, social post, pricing action, sell-test, B transition, implementation, API, scraping, or automation work occurred.
 
+## Public Status Block v1
+
+Date/time: 2026-07-07 16:37:47 JST
+
+- Public Status Block v1 added to README.
+- Status block confirms Manual MVP: PASS, Public Repo: PUBLIC, Source Workspace: PRIVATE, Direct Public Reopen: BLOCK, Implementation: HOLD, API / Scraping / Automation: BLOCK, Public Posting: HOLD, Release / Tag: HOLD, Pricing / Sell-test: HOLD, Prediction Guarantee: NO, Medical Advice: NO, and Build Recommendation: NO.
+- Existing private repo remained PRIVATE.
+- No release, tag, social post, pricing action, sell-test, B transition, implementation, API, scraping, automation, or license selection occurred.
+
 This is not a recommendation to build.
 This is an evidence-backed pain signal map.
 The build decision remains with the user.

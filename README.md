@@ -2,6 +2,23 @@
 
 Pain Timing Map is a manual framework for recording pain signals, rechecking them over time, and deciding whether a signal is still worth action, delay, or rejection. It treats weak signals as decision material: useful only when paired with evidence, timing, fit, risk, and clear boundaries.
 
+## Current Status
+
+Manual MVP: PASS  
+Public Repo: PUBLIC  
+Source Workspace: PRIVATE  
+Direct Public Reopen: BLOCK  
+Implementation: HOLD  
+API / Scraping / Automation: BLOCK  
+Public Posting: HOLD  
+Release / Tag: HOLD  
+Pricing / Sell-test: HOLD  
+Prediction Guarantee: NO  
+Medical Advice: NO  
+Build Recommendation: NO
+
+This repository is a manual, evidence-backed pain signal map. It does not guarantee prediction, diagnosis, automation, or build decisions.
+
 ## What This Is
 
 - A manual evidence-structuring workflow.
@@ -76,7 +93,7 @@ Do not paste personal data, sensitive scraped data, medical records, confidentia
 
 This framework can help organize decision material. It does not provide medical, legal, financial, security, business, or product guarantees.
 
-## Current Status
+## Publication Boundary
 
 This folder is a public shelf candidate, not a release. It is prepared for review as a clean documentation surface and should not be treated as publication, launch, or implementation approval.
 
