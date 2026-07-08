@@ -1,7 +1,7 @@
 # Pain Timing Map
 
 ![Manual MVP](https://img.shields.io/badge/Manual%20MVP-PASS-brightgreen)
-![Status](https://img.shields.io/badge/Status-PRIVATE%20%2F%20Public%20Reopen%20BLOCK-red)
+![Status](https://img.shields.io/badge/Status-PUBLIC%20SHELF%20%2F%20Public%20intake%20BLOCK%20%2F%20Chart%20renderer%20HOLD-yellow)
 ![Implementation](https://img.shields.io/badge/Implementation-HOLD-yellow)
 ![API / Scraping / Automation](https://img.shields.io/badge/API%20%2F%20Scraping%20%2F%20Automation-BLOCK-red)
 ![Public Posting](https://img.shields.io/badge/Public%20Posting-HOLD-yellow)
@@ -13,8 +13,9 @@ Pain Timing Map is a manual framework for recording pain signals, rechecking the
 
 Manual MVP: PASS  
 Public Repo: PUBLIC  
-Source Workspace: PRIVATE  
-Direct Public Reopen: BLOCK  
+Public Surface: PUBLIC SHELF
+Public Intake: BLOCK
+Chart Renderer: HOLD
 Implementation: HOLD  
 API / Scraping / Automation: BLOCK  
 Public Posting: HOLD  
@@ -52,6 +53,21 @@ The build decision remains with the user or operator.
 3. Create an output card with the signal, hidden pain, timing, pre-signals, and gate.
 4. Compare repeated signals over time.
 5. Decide whether the signal should remain WATCH, HOLD, CAP, PREPARE, BUILD CANDIDATE, or be rejected.
+
+## Example Output
+
+After several signals are captured, Pain Timing Map can place them across a Timing Line, Deadline Line, and Trigger Line.
+
+```text
+Now ----- 1M ----- 3M ----- 6M ----- 12M ----- Evergreen
+          |        |                                  |
+          |        |- AI Paper Delta Score            |- Fable Audit
+          |        |- Small Everyday Memory           |- Small Curiosity Signal
+          |
+          |- EV-Based Fix Filter
+```
+
+See `examples/public_timing_batch_example.md`.
 
 ## Color Tags
 
