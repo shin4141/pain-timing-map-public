@@ -66,7 +66,7 @@ Reason: this file requires public-safe rewrite or privacy wording check before i
 
 - `examples/public_timing_batch_example.md`
 - Purpose: public-safe demo of Timing / Deadline / Trigger map.
-- Boundary: does not expose private Batch 001, SR-004, or registry content.
+- Boundary: does not expose private workspace artifacts, internal batches, or registry content.
 
 ## Needs Review
 
