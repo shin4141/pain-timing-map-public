@@ -75,16 +75,34 @@ Color tags are optional review-state markers for timing and evidence. They are n
 
 See `docs/color_tags.md` for the public color tag guide.
 
+## Downstream Entry Use
+
+Pain Timing Map can produce a Pain Signal Package / Entry Intake Pack. This package does not decide what to build. It prepares evidence-backed material that can later be evaluated by an Entry Window / Entry Decision process.
+
+The package sits between Pain Timing Map and downstream Entry evaluation:
+
+```text
+Pain Timing Map
+-> Pain Signal Package / Entry Intake Pack
+-> Entry Window Radar
+-> Entry Decision
+```
+
+Pain is allowed to package evidence-backed material. Pain is not allowed to issue a Build Command.
+
 ## Included Files
 
 - `docs/mvp_scope.md`: manual MVP scope and non-goals.
 - `docs/manual_usage_flow.md`: step-by-step manual usage flow.
 - `docs/visual_overview.md`: simple diagrams for signal flow.
 - `docs/color_tags.md`: public guide for color tag meanings.
+- `docs/entry_intake_pack.md`: Pain-side transfer format for downstream Entry evaluation.
 - `inputs/signal_recheck_card_template.md`: blank card for manual review.
+- `inputs/entry_intake_pack_template.md`: blank Pain Signal Package / Entry Intake Pack template.
 - `inputs/user_profile.md`: optional profile template for fit and constraints.
 - `inputs/evidence_sources.md`: evidence source notes.
 - `examples/`: sample signal recheck cards.
+- `examples/public_entry_intake_pack_example.md`: fictional public-safe Entry Intake Pack example.
 - `schema/pain_record.schema.json`: optional structured record schema.
 - `prompts/evaluate_pain_signal_prompt.md`: manual prompt for reviewing a pain record.
 - `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `SUPPORT.md`: project boundary and support documents.
