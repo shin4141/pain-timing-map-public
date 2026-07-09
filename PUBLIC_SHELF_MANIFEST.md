@@ -62,11 +62,17 @@ Reason: this file requires public-safe rewrite or privacy wording check before i
 - `LICENSE_DECISION_REQUIRED.md`
 - `docs/color_tags.md`
 
+## Pain Signal Language v1
+
+- `docs/pain_signal_language.md`
+- Purpose: public-facing explanation of Pain as signal language.
+- Boundary: does not authorize build, pricing, sell-test, public intake, automation, or scanner work.
+
 ## Public Timing Batch Example v1
 
 - `examples/public_timing_batch_example.md`
 - Purpose: public-safe demo of Timing / Deadline / Trigger map.
-- Boundary: does not expose private workspace artifacts, internal batches, or registry content.
+- Boundary: does not expose source-only artifacts, internal batches, or registry content.
 
 ## Needs Review
 

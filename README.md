@@ -27,6 +27,36 @@ Build Recommendation: NO
 
 This repository is a manual, evidence-backed pain signal map. It does not guarantee prediction, diagnosis, automation, or build decisions.
 
+## What "Pain" Means Here
+
+Pain does not only mean discomfort.
+
+In Pain Timing Map, a pain signal can mean:
+
+- missed opportunity,
+- wasted work,
+- rework,
+- upcoming failure,
+- decision error,
+- route mismatch,
+- timing mismatch.
+
+Pain is not automatically a reason to stop.
+
+Pain is first captured as a signal, then classified before action.
+
+```text
+Pain Signal
+↓
+Entry Window
+↓
+GO / SOFT GO / HOLD / BLOCK
+↓
+Smallest Next Action
+```
+
+See `docs/pain_signal_language.md`.
+
 ## What This Is
 
 - A manual evidence-structuring workflow.
@@ -96,6 +126,7 @@ Pain is allowed to package evidence-backed material. Pain is not allowed to issu
 - `docs/manual_usage_flow.md`: step-by-step manual usage flow.
 - `docs/visual_overview.md`: simple diagrams for signal flow.
 - `docs/color_tags.md`: public guide for color tag meanings.
+- `docs/pain_signal_language.md`: public guide to Pain as signal language.
 - `docs/entry_intake_pack.md`: Pain-side transfer format for downstream Entry evaluation.
 - `inputs/signal_recheck_card_template.md`: blank card for manual review.
 - `inputs/entry_intake_pack_template.md`: blank Pain Signal Package / Entry Intake Pack template.
