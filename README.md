@@ -27,6 +27,12 @@ Build Recommendation: NO
 
 This repository is a manual, evidence-backed pain signal map. It does not guarantee prediction, diagnosis, automation, or build decisions.
 
+## Start here
+
+1. Read what "Pain" means here: `docs/pain_signal_language.md`
+2. Try the signal card: `inputs/signal_recheck_card_template.md`
+3. See how captured signals can be mapped: `examples/public_timing_batch_example.md`
+
 ## What "Pain" Means Here
 
 Pain does not only mean discomfort.

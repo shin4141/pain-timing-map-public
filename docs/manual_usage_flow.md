@@ -58,11 +58,9 @@ A user should receive:
 
 ## Step 4: Accumulation
 
-Each reviewed signal may be recorded in:
+Each reviewed signal may be saved in your own notes or workspace.
 
-```text
-outputs/signal_recheck_log.md
-```
+For a public-safe demo of accumulated signals, see `examples/public_timing_batch_example.md`.
 
 ## Step 5: Promotion Path
 
@@ -72,7 +70,7 @@ Light Signal
 -> Signal Log
 -> Pain Cluster
 -> Evidence Candidate
--> Decision Material Record only with Decision Owner approval
+-> Decision Material Record only with explicit human approval
 ```
 
 ## Current Gate
